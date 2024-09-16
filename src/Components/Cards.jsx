@@ -37,7 +37,7 @@ function Cards(props) {
                   </a>
 
                   <p className="text-sm">
-                    <time datetime="2022-01-17">{props.date}</time>
+                    <time datetime={props.date}>{props.date}</time>
                     <span className="separator"></span>
                     <ion-icon name="time-outline"></ion-icon>
                     <time datetime="PT3M">{props.time}</time>
