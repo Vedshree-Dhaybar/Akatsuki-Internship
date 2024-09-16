@@ -6,7 +6,7 @@ function Header() {
           <nav className="navbar">
             <a href="#">
               <img
-                src="./assets/images/akatsuki.png"
+                src={akatsuki}
                 alt="SimpleBlog logo"
                 width="150"
                 className="logo-light"

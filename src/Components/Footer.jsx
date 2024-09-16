@@ -6,7 +6,7 @@ function Footer() {
           <div class="wrapper">
             <a href="#" class="footer-logo">
               <img
-                src="./assets/images/akatsuki.png"
+                src={akatsuki}
                 alt="SimpleBlog Logo"
                 width="150"
                 class="logo-light"
