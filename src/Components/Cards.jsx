@@ -1,6 +1,4 @@
-// import PropTypes from "prop-types";
-
-function Cards() {
+function Cards(props) {
   return (
     <>
       <div className="blog">
@@ -10,7 +8,7 @@ function Cards() {
           <div className="blog-card">
             <div className="blog-card-banner">
               <img
-                src={props.blogImage}
+                src={props.img}
                 alt={props.title}
                 width="250"
                 className="blog-banner-img"
@@ -26,7 +24,7 @@ function Cards() {
                 </a>
               </h3>
 
-              <p className="blog-text">{props.text}</p>
+              <p className="blog-text">{props.desc}</p>
 
               <div className="wrapper-flex">
                 <div className="profile-wrapper">
