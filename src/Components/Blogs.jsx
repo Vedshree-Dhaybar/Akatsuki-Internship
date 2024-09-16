@@ -1,3 +1,5 @@
+import Cards from "./Cards.jsx";
+
 function Blogs() {
   return (
     <>
