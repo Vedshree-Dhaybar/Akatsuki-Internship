@@ -1,4 +1,4 @@
-function Cards(props) {
+const Cards = (props) => {
   return (
     <>
       <div className="blog">
@@ -28,7 +28,7 @@ function Cards(props) {
 
               <div className="wrapper-flex">
                 <div className="profile-wrapper">
-                  <img src={props.profilePic} alt={props.author} width="50" />
+                  <img src={props.profile} alt={props.author} width="50" />
                 </div>
 
                 <div className="wrapper">
@@ -52,6 +52,6 @@ function Cards(props) {
       <button className="btn load-more">Load More</button>
     </>
   );
-}
+};
 
 export default Cards;
