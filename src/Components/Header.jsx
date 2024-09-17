@@ -1,3 +1,4 @@
+import logo from "./assets/akatsuki.png";
 function Header() {
   return (
     <>
@@ -6,7 +7,7 @@ function Header() {
           <nav className="navbar">
             <a href="#">
               <img
-                src={akatsuki}
+                src={logo}
                 alt="SimpleBlog logo"
                 width="150"
                 className="logo-light"

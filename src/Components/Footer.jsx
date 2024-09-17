@@ -1,3 +1,5 @@
+import logo from "./assets/akatsuki.png";
+
 function Footer() {
   return (
     <>
@@ -6,9 +8,9 @@ function Footer() {
           <div class="wrapper">
             <a href="#" class="footer-logo">
               <img
-                src={akatsuki}
+                src={logo}
                 alt="SimpleBlog Logo"
-                width="150"
+                // width="150"
                 class="logo-light"
               />
             </a>

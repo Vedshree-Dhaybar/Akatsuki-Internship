@@ -1,3 +1,5 @@
+import logo from "./assets/akatsuki.png";
+
 function Hero() {
   return (
     <>
@@ -29,7 +31,7 @@ function Hero() {
           <div className="right">
             <div className="pattern-bg"></div>
             <div className="img-box">
-              <img src={akatsuki} alt="Julia Walker" className="hero-img" />
+              <img src={logo} alt="Julia Walker" className="hero-img" />
             </div>
           </div>
         </div>
